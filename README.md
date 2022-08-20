@@ -1,6 +1,6 @@
 # Craiyon.NET
 ### Overview
-An unofficial API wrapper for [Craiyon](https://craiyon.com) (formerly DAL-E-MINI) to generate awesome images from text tokens.\
+An unofficial API wrapper for [Craiyon](https://craiyon.com) (formerly DALL-E-MINI) to generate awesome images from text tokens.\
 Simplest and easiest to use.
 
 Inspired by [craiyon.py](https://github.com/FireHead90544/craiyon.py).
@@ -36,7 +36,7 @@ var images = craiyon.GenerateImageAsync("what you want to see"); // Generate ima
 ### Generate images and convert into System.Drawing.Bitmap
 ```csharp
 var craiyon = new Craiyon.CraiyonClient(); // Create new instance
-var images = craiyon.GenerateImageAsync("what you want to see"); // Generate images
+var images = craiyon.GenerateImage("what you want to see"); // Generate images
 
 Bitmap[] bmps = images.ToBitmaps(); // Get bitmaps
 ```
