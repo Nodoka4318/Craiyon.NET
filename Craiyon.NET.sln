@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{038C4F85
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{09F6994E-2860-41D6-8F5A-C7D05CD07EA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCraiyonImageGenerator", "SampleCraiyonImageGenerator\SampleCraiyonImageGenerator.csproj", "{720D8C06-7828-4336-999D-726A6CB83BB7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCraiyonImageGenerator", "samples\SampleCraiyonImageGenerator\SampleCraiyonImageGenerator.csproj", "{720D8C06-7828-4336-999D-726A6CB83BB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
