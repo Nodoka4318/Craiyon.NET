@@ -40,3 +40,16 @@ var images = craiyon.GenerateImage("what you want to see"); // Generate images
 
 Bitmap[] bmps = images.ToBitmaps(); // Get bitmaps
 ```
+## macOS support
+Since macOS does not support System.Drawing.Commons, images need to be saved from a byte array.
+```csharp
+var craiyon = new Craiyon.CraiyonClient(); // Create new instance
+var images = craiyon.GenerateImage("what you want to see"); // Generate images
+
+byte[][] byteArrayImgs = images.ToByteArrays(); // Get byte arrays
+for (int i = 0; i < byteArrayImgs; i++) {
+    var ms = new System.IO.MemoryStream(byteArrayImgs[i]);
+    var fs = new System.IO.FileStream("filepath to save", FileMode.Create)
+    ms.WriteTo(fs); // Write image data to filestream
+}
+```
