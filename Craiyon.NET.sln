@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Craiyon", "src\Craiyon\Craiyon.csproj", "{FEB75592-8021-4D66-A6E1-8D1025905A49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{59E062BF-DCBD-4D1B-8DD8-6196736AC8AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{038C4F85-3845-4A52-903C-4562A20A91A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{09F6994E-2860-41D6-8F5A-C7D05CD07EA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCraiyonImageGenerator", "SampleCraiyonImageGenerator\SampleCraiyonImageGenerator.csproj", "{720D8C06-7828-4336-999D-726A6CB83BB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEB75592-8021-4D66-A6E1-8D1025905A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB75592-8021-4D66-A6E1-8D1025905A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB75592-8021-4D66-A6E1-8D1025905A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB75592-8021-4D66-A6E1-8D1025905A49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{720D8C06-7828-4336-999D-726A6CB83BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720D8C06-7828-4336-999D-726A6CB83BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720D8C06-7828-4336-999D-726A6CB83BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720D8C06-7828-4336-999D-726A6CB83BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FEB75592-8021-4D66-A6E1-8D1025905A49} = {59E062BF-DCBD-4D1B-8DD8-6196736AC8AC}
+		{720D8C06-7828-4336-999D-726A6CB83BB7} = {09F6994E-2860-41D6-8F5A-C7D05CD07EA6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B892376-9F5E-481B-9024-163DE372A51C}
+	EndGlobalSection
+EndGlobal
