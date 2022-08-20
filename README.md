@@ -6,7 +6,8 @@ Simplest and easiest to use.
 Inspired by [craiyon.py](https://github.com/FireHead90544/craiyon.py).
 
 ## Installation
-you can get it from [NuGet](https://www.nuget.org/packages/Craiyon.NET)!
+you can get it from [NuGet](https://www.nuget.org/packages/Craiyon.NET)!\
+..or just copy & paste codes in this repo
 ### Package Manager
 ```powershell
 Install-Package Craiyon.NET -Version 0.0.1
